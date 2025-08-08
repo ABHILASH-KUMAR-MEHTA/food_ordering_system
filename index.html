@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Food Ordering System</title>
+    <link
+      rel="shortcut icon"
+      href="img/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- Google Font -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <!-- Sidebar -->
+      <aside class="side-bar">
+        <div class="close">&#10006;</div>
+        <img
+          src="img/logo.png"
+          alt="Restaurant Logo"
+        />
+        <p class="small-heading">Mehta da Restaurant</p>
+        <p class="slogan">Taste That Brings You Home.</p>
+        <hr />
+
+        <nav class="quick-links">
+          <p class="small-heading mar-bottom">Quick Links</p>
+          <ul>
+            <li><a href="#">1. Home</a></li>
+            <li><a href="#">2. Your Order</a></li>
+            <li><a href="#">3. Wallet</a></li>
+            <li><a href="#">4. Profile</a></li>
+            <li><a href="#">5. Logout</a></li>
+            <li>
+              <a
+                href="#"
+                onclick="secondScreen()"
+                >6. Menu / Second Screen</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <hr />
+
+        <div class="more-about-us">
+          <p class="small-heading mar-bottom">More About Us</p>
+          <ul>
+            <li><a href="#">1. Our Blog</a></li>
+            <li><a href="#">2. Upcoming Dishes</a></li>
+            <li><a href="#">3. Our Story</a></li>
+            <li><a href="#">4. Social Media Links</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <header class="nav-element">
+          <div class="hamburger">
+            <div class="open">&#9776;</div>
+          </div>
+          <div class="search">
+            <form>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                placeholder="Search Food Item"
+              />
+            </form>
+          </div>
+          <div class="auth-buttons">
+            <button
+              class="red-btn signup"
+              type="button"
+            >
+              Signup
+            </button>
+            <button
+              class="red-btn"
+              type="button"
+            >
+              Login
+            </button>
+          </div>
+          <img
+            src="img/logo.png"
+            alt="Small Logo"
+            class="small-logo"
+          />
+        </header>
+
+        <div class="helping-class"></div>
+
+        <div class="hero-img">
+          <img
+            src="img/banner.png"
+            alt="Hero Banner"
+            class="main_hero_img"
+          />
+        </div>
+
+        <!-- Menu -->
+        <section class="menu">
+          <p class="small-heading">Menu</p>
+          <div class="card-section"></div>
+        </section>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a6110cc4e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
